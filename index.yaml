@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  match-todo-users-srv:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-22T08:32:03.884225+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 1b0844bad214c330f0440e44880d26250e36d9d76ef21c5ff3042303e61fb964
+    name: match-todo-users-srv
+    type: application
+    urls:
+    - match-todo-users-srv-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-09-22T08:32:03.881097+02:00"
