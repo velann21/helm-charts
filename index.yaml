@@ -3,7 +3,7 @@ entries:
   match-todo-users-srv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-22T20:58:14.157262+02:00"
+    created: "2020-09-22T21:36:40.115269+02:00"
     description: A Helm chart for Kubernetes
     digest: af6f057d7ebd4651e7a1d1c85f681007633d9ac93154c1d397b2abd5392b272c
     name: match-todo-users-srv
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-09-22T20:58:14.156424+02:00"
+    created: "2020-09-22T21:36:40.112025+02:00"
     description: A Helm chart for Kubernetes
     digest: 1b0844bad214c330f0440e44880d26250e36d9d76ef21c5ff3042303e61fb964
     name: match-todo-users-srv
@@ -21,4 +21,29 @@ entries:
     urls:
     - match-todo-users-srv-0.1.0.tgz
     version: 0.1.0
-generated: "2020-09-22T20:58:14.155524+02:00"
+  mysql:
+  - apiVersion: v1
+    appVersion: 5.7.30
+    created: "2020-09-22T21:36:40.116797+02:00"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 4171f36d27c8d22c50c737707653df869e6a3e281462c4d3a9d1790daa800b7d
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - mysql-1.6.7.tgz
+    version: 1.6.7
+generated: "2020-09-22T21:36:40.110874+02:00"
