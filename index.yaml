@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  inventory_srv:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-04T11:46:52.248108+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 74cf32a4941b38417f74609e4d4897d7fdd99b2773c4de30b2754169f9ec9522
+    name: inventory_srv
+    type: application
+    urls:
+    - inventory_srv-0.1.0.tgz
+    version: 0.1.0
   match-todo-users-srv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-04T11:37:04.285369+02:00"
+    created: "2020-10-04T11:46:52.249962+02:00"
     description: A Helm chart for Kubernetes
     digest: af6f057d7ebd4651e7a1d1c85f681007633d9ac93154c1d397b2abd5392b272c
     name: match-todo-users-srv
@@ -13,7 +24,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-04T11:37:04.28469+02:00"
+    created: "2020-10-04T11:46:52.249061+02:00"
     description: A Helm chart for Kubernetes
     digest: 1b0844bad214c330f0440e44880d26250e36d9d76ef21c5ff3042303e61fb964
     name: match-todo-users-srv
@@ -24,7 +35,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2020-10-04T11:37:04.287813+02:00"
+    created: "2020-10-04T11:46:52.251917+02:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 408a8fd3a964a64de91465851554a3eb2b1c7b78da746997f5417f77d0cf522e
@@ -46,4 +57,4 @@ entries:
     urls:
     - mysql-1.6.7.tgz
     version: 1.6.7
-generated: "2020-10-04T11:37:04.283869+02:00"
+generated: "2020-10-04T11:46:52.243781+02:00"

@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/index.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/.helmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/Chart.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/templates/_helpers.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/templates/deployments.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/templates/namespace.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/templates/service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/templates/tests/test-connection.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/match-todo-users-srv/values.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-1.6.7.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-1.6.7.tgz" afterDir="false" />
-    </list>
+    <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +104,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25864553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -159,12 +146,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/values.yaml">
+    <entry file="file://$PROJECT_DIR$/inventory_srv/values.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_srv/charts/mysql/values.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory_srv/Chart.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
