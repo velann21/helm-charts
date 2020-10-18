@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/index.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,40 +22,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/Chart.yaml">
+        <entry file="file://$PROJECT_DIR$/inventory-srv/values.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/values.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/templates/_helpers.tpl">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/templates/deployments.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/templates/namespace.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory_srv/templates/service.yaml">
+        <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -78,6 +53,7 @@
         <option value="$PROJECT_DIR$/mysql/values.yaml" />
         <option value="$PROJECT_DIR$/inventory_srv/values.yaml" />
         <option value="$PROJECT_DIR$/inventory_srv/Chart.yaml" />
+        <option value="$PROJECT_DIR$/inventory-srv/values.yaml" />
       </list>
     </option>
   </component>
@@ -91,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
@@ -102,7 +78,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,10 +85,22 @@
               <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
               <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,10 +136,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25864553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26729107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,7 +152,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33415535" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44714287" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -183,23 +170,15 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/match-todo-users-srv/templates/tests/test-connection.yaml" />
-    <entry file="file://$PROJECT_DIR$/match-todo-users-srv/values.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/match-todo-users-srv/Chart.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/charts/mysql/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/match-todo-users-srv/values.yaml" />
+    <entry file="file://$PROJECT_DIR$/match-todo-users-srv/Chart.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/charts/mysql/values.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/values.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/_helpers.tpl" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/deployments.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/namespace.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/service.yaml" />
+    <entry file="file://$PROJECT_DIR$/inventory_srv/Chart.yaml" />
     <entry file="file://$PROJECT_DIR$/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -207,29 +186,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/values.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/_helpers.tpl">
+    <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/deployments.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/namespace.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/templates/service.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory_srv/Chart.yaml">
+    <entry file="file://$PROJECT_DIR$/inventory-srv/values.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
