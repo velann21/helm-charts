@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/inventory-srv/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-srv/Chart.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="-1117">
               <caret line="2" column="15" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
@@ -30,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inventory-srv/Chart.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -41,7 +39,25 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-759" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/templates/deployment.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/templates/pvc.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -78,7 +94,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="173" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -99,6 +115,27 @@
               <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
               <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
               <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory-srv" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,7 +177,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="0" y="173" width="1440" height="811" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26729107" />
@@ -183,16 +220,6 @@
     <entry file="file://$PROJECT_DIR$/inventory_srv/templates/namespace.yaml" />
     <entry file="file://$PROJECT_DIR$/inventory_srv/templates/service.yaml" />
     <entry file="file://$PROJECT_DIR$/inventory_srv/Chart.yaml" />
-    <entry file="file://$PROJECT_DIR$/index.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inventory-srv/values.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -204,6 +231,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1117">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/templates/pvc.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory-srv/charts/mysql/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
         </state>
       </provider>
     </entry>
