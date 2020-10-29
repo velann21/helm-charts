@@ -3,7 +3,7 @@ entries:
   gateway-srv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-29T18:16:20.002545+01:00"
+    created: "2020-10-29T19:42:38.155685+01:00"
     description: A Helm chart for Kubernetes
     digest: 6b24ce1c645f741f8c55ca510bf3e4536b1896e17c86996dc0dc3ada06542b08
     name: gateway-srv
@@ -11,10 +11,21 @@ entries:
     urls:
     - gateway-srv-0.1.0.tgz
     version: 0.1.0
+  ingress:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-29T19:42:38.156195+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 1df1968903d142311deccd4c37f2120f3b4b44239a924a5a6a22b85c74fca6b9
+    name: ingress
+    type: application
+    urls:
+    - ingress-0.1.0.tgz
+    version: 0.1.0
   inventory-srv:
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2020-10-29T18:16:20.009774+01:00"
+    created: "2020-10-29T19:42:38.161742+01:00"
     description: A Helm chart for Kubernetes
     digest: e1c8eb49b26b10e5ea3361945e868235cef910c65fcfb837ce148870eb5f20fd
     name: inventory-srv
@@ -24,7 +35,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.1
-    created: "2020-10-29T18:16:20.005814+01:00"
+    created: "2020-10-29T19:42:38.158636+01:00"
     description: A Helm chart for Kubernetes
     digest: bfa436808ec4335eeb5b35022c6a25b7b8c7029441dcc1d4143f716b05a9fbb9
     name: inventory-srv
@@ -35,7 +46,7 @@ entries:
   inventory_srv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-29T18:16:20.012308+01:00"
+    created: "2020-10-29T19:42:38.163901+01:00"
     description: A Helm chart for Kubernetes
     digest: 74cf32a4941b38417f74609e4d4897d7fdd99b2773c4de30b2754169f9ec9522
     name: inventory_srv
@@ -46,7 +57,7 @@ entries:
   match-todo-users-srv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-29T18:16:20.014122+01:00"
+    created: "2020-10-29T19:42:38.166434+01:00"
     description: A Helm chart for Kubernetes
     digest: af6f057d7ebd4651e7a1d1c85f681007633d9ac93154c1d397b2abd5392b272c
     name: match-todo-users-srv
@@ -56,7 +67,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-29T18:16:20.013134+01:00"
+    created: "2020-10-29T19:42:38.164976+01:00"
     description: A Helm chart for Kubernetes
     digest: 1b0844bad214c330f0440e44880d26250e36d9d76ef21c5ff3042303e61fb964
     name: match-todo-users-srv
@@ -67,7 +78,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2020-10-29T18:16:20.016893+01:00"
+    created: "2020-10-29T19:42:38.168968+01:00"
     description: Fast, reliable, scalable, and easy to use open-source relational
       database system.
     digest: 408a8fd3a964a64de91465851554a3eb2b1c7b78da746997f5417f77d0cf522e
@@ -89,4 +100,4 @@ entries:
     urls:
     - mysql-1.6.7.tgz
     version: 1.6.7
-generated: "2020-10-29T18:16:20.001926+01:00"
+generated: "2020-10-29T19:42:38.151228+01:00"
