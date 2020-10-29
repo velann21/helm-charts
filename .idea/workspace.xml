@@ -3,31 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e6d416b-b250-4485-84d1-4088d1e9eb52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/index.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/.helmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/Chart.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/.helmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/Chart.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/_helpers.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/configurationFiles-configmap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/initializationFiles-configmap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/pvc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/secrets.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/serviceaccount.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/servicemonitor.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/svc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/tests/test-configmap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/templates/tests/test.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/charts/mysql/values.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/templates/_helpers.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/templates/deployments.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/templates/namespace.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/templates/service.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/templates/tests/test-connection.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-srv/values.yaml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,24 +12,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.yaml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/service_account_admin.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-srv/values.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ingress/templates/cluster_role_admin.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-srv/Chart.yaml">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/cluster_role_binding.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131" />
+            <state relative-caret-position="294">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/clusterrole.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/clusterrole_binding.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1904">
+              <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/role_admin.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/ingress.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/role_binding_admin.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/job_admin_create.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ingress/templates/job_admin_patch.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -78,16 +122,22 @@
         <option value="$PROJECT_DIR$/inventory_srv/Chart.yaml" />
         <option value="$PROJECT_DIR$/inventory-srv/values.yaml" />
         <option value="$PROJECT_DIR$/inventory-srv/Chart.yaml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/helm-charts.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/ingress/templates/ingress.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/serviceaccount.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/configmap.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/clusterrole.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/clusterrole_binding.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/role_binding.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/service.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/deployment.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/webhook_config.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/service_account_admin.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/cluster_role_admin.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/cluster_role_binding.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/role_admin.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/role_binding_admin.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/job_admin_create.yaml" />
+        <option value="$PROJECT_DIR$/ingress/templates/job_admin_patch.yaml" />
       </list>
     </option>
   </component>
@@ -109,6 +159,17 @@
               <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
               <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="ingress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helm-charts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="helm-charts" type="462c0819:PsiDirectoryNode" />
+              <item name="ingress" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -129,11 +190,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/inventory_srv/charts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ingress/templates" />
+      <recent name="$PROJECT_DIR$/inventory_srv/charts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,8 +212,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="173" width="1440" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27161384" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27161384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -164,7 +227,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44714287" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44714287" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -230,6 +293,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/configmap.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/role_binding.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/deployment.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/webhook_config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/serviceaccount.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/service_account_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/role_binding_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/job_admin_create.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/job_admin_patch.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/role_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/ingress.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/cluster_role_admin.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/cluster_role_binding.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/clusterrole.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress/templates/clusterrole_binding.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
         </state>
       </provider>
     </entry>
