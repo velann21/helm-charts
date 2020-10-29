@@ -1,6 +1,0 @@
-apiVersion: v2
-appVersion: 1.16.1
-description: A Helm chart for Kubernetes
-name: inventory-srv
-type: application
-version: 0.3.0
